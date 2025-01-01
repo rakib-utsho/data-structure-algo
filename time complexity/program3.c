@@ -11,7 +11,8 @@ int main()
     result = result + i;
     }
 
-    // time complexity is O(1) = Big O of 1
+    // time complexity is O(2n) => 2O(n) => O(n)
+    // the loop run number was depend on "n". so the time complexity is O(n)
 
     printf("Result is: %d", result);
 
