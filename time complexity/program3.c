@@ -5,7 +5,11 @@ int main()
 
     scanf("%d", &n);
 
-    result = n * (n+1)/2; //assignment operation, 3 math operation,
+    result = 0;
+
+    for (int i=1; i<=n; i++){
+    result = result + i;
+    }
 
     // time complexity is O(1) = Big O of 1
 
