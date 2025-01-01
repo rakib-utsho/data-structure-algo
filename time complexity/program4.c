@@ -13,7 +13,7 @@ int main()
         }
     }
     // time complexity is O(n^2)
-    // the loop run number was depend on "n". so the time complexity is O(n^2)
+    // count = n^2. so the time complexity is O(n^2)
 
     printf("n = %d, count =%d\n", n, count);
 

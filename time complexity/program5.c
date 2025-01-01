@@ -13,8 +13,8 @@ int main()
             }
         }
     }
-    // time complexity is O(n^2)
-    // count = n^2. so the time complexity is O(n^2)
+    // time complexity is O(n^3)
+    // count = n^3. so the time complexity is O(n^3)
 
     printf("n = %d, count =%d\n", n, count);
 
